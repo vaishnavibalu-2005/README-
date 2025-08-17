@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+class InsertionSort {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+
+        // Input number of elements
+        System.out.print("Enter number of elements: ");
+        int n = s.nextInt();
+        int[] arr = new int[n];
+
+        // Input array elements
+        System.out.println("Enter the elements:");
+        for (int i = 0; i <
